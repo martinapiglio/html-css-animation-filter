@@ -51,3 +51,48 @@
 .ex-6-img:hover {
     filter: grayscale(100%);
 }
+
+/* esercizio 7 */
+.ex-7-img {
+    transition: all 2s;
+}
+
+.ex-7-img:hover {
+    filter: sepia(60%) grayscale(40%);
+}
+
+/* esercizio 8 */
+.ex-8-img {
+    transition: all 2s;
+}
+
+.ex-8-img:hover {
+    border-radius: 20px;
+    filter: sepia(60%) grayscale(40%);
+}
+
+/* esercizio 9 */
+.ex-9-img {
+    transition: all 2s;
+}
+
+.ex-9-img:hover {
+    border-radius: 20px;
+    filter: sepia(60%) grayscale(40%);
+    transform: scale(1.5);
+}
+
+/* esercizio 10 */
+.ex-10-icon {
+    animation: rotate-anticlockwise 1s linear infinite;
+}
+
+@keyframes rotate-anticlockwise {
+    0%  {
+      transform: rotate(360deg);
+   }
+ }
+ 
+ 
+
+ 
